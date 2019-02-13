@@ -1,0 +1,20 @@
+
+.jumbotron{
+	width: 500px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -115px;
+	margin-left: -250px;
+}
+
+input{
+	margin-top: 10px;
+	visibility: hidden;
+	margin-bottom: 10px;
+}
+
+#submitBtn{
+	visibility: hidden;
+}
