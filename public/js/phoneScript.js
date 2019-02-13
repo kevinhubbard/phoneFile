@@ -21,7 +21,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		inputNum.style.visibility = 'visible';
 		link.style.visibility = 'visible';
-		carrier='@att.txt.net';
+		carrier='@txt.att.net';
 	});
 
 	inputNum.addEventListener('keyup', function(e){

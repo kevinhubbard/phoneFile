@@ -43,7 +43,7 @@ app.post('/', (req,res)=>{
 			}
 		});
 
-	} else if(carrier === '@att.txt.net'){
+	} else if(carrier === '@txt.att.net'){
 		console.log('number was: ' + mailOptions.to);
 
 		transporter.sendMail(mailOptions, (error,info)=>{
