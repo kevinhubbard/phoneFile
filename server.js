@@ -63,11 +63,3 @@ app.listen(port, ()=>{
 	console.log(`Listening on port: ${port}`);
 });
 
-
-/*	transporter.sendMail(mailOptions, (error,info)=>{
-		if(error){
-			console.log(error);
-		} else {
-			console.log('Email Sent: ' + info.response);
-		}
-	});*/

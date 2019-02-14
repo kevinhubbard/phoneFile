@@ -43,6 +43,9 @@ $(document).ready(function(){
 			data: {number: number, carrier: carrier, link: link},
 		});
 
+		$('#inputNum').val('');
+		$('#link').val('');
+
 		} else {
 			
 			alert('number invalid. ' + number);
