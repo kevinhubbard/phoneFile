@@ -14,6 +14,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		inputNum.style.visibility = 'visible';
 		link.style.visibility = 'visible';
+		attBtn.style.visibility = 'hidden';
 		carrier='@vtext.com';
 	});
 
@@ -21,6 +22,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		inputNum.style.visibility = 'visible';
 		link.style.visibility = 'visible';
+		vzwBtn.style.visibility = 'hidden';
 		carrier='@txt.att.net';
 	});
 
@@ -45,6 +47,12 @@ $(document).ready(function(){
 
 		$('#inputNum').val('');
 		$('#link').val('');
+		vzwBtn.style.visibility = 'visible';
+		attBtn.style.visibility = 'visible';
+		submitBtn.style.visibility = 'hidden';
+		inputNum.style.visibility = 'hidden';
+		linkInpt.style.visibility = 'hidden';
+
 
 		} else {
 			
